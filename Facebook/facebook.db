@@ -1,0 +1,11 @@
+create database facebook;
+
+use facebook;
+
+create table usuario(
+id_usuario integer PRIMARY KEY AUTO_INCREMENT,
+nome_usuario varchar(20) not null,
+sobrenome_usuario varchar(60) not null,
+emailtel_usuario varchar(40) not null,
+emailtel_usuario_confirm varchar(40),
+senha_usuario varchar(20) not null);
